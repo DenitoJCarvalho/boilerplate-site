@@ -1,0 +1,45 @@
+/*charset: utf-8*/
+
+:root {
+
+  --poppins: "Poppins", sans-serif;
+  --roboto: "Roboto", sans-serif;
+  --inter: "Inter", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: var(--roboto), var(--inter), 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 16px;
+}
+
+body {
+  width: 100vw;
+  max-width: 1920px;
+  height: auto;
+}
+
+img {
+  width: 100%;
+  max-width: 1600px;
+  height: auto;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1 {
+  font: bold normal 2rem var(--poppins);
+}
+
+h2 {
+  font: bold normal 1.5rem var(--poppins);
+  text-decoration: 0.25rem solid overline;
+}

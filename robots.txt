@@ -1,0 +1,8 @@
+User-agent: *
+
+Disallow: /src/public/assets
+Disallow: /src/public/js
+Disallow: /.editorconfig
+
+Allow: /index.html
+Allow: /src/public/css
